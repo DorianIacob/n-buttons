@@ -1,0 +1,30 @@
+body {
+    margin:120px 0; 
+    padding:10;
+    text-align:center;
+}
+
+h1, h2, span {
+    font-family: sans-serif;
+}
+
+button {
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 1em;
+    width: 7em;
+    height: 2.5em;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+#message1, #message2 {
+    font-family: sans-serif;
+}
+
+#message1 {
+    font-size: 1.5em;
+}

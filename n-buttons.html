@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Guess from n-buttons</title>
+    <link rel="stylesheet" href="styles/styles-n-buttons.css">
+
+  </head>
+
+  <body>
+    
+    <h1>Guess the winning button</h1>
+    <h2 id="instruction1">1. Enter a number</h2>
+    <input type="tel" id="buttonsQty">
+    <h2 id="instruction2">2. Press the "Start" button</h2>
+    <button id="start" onclick="generateButtons()">Start</button>
+    <h2>3. Press one of the below buttons</h2>
+    <div id="buttons">
+      <div id="buttonsContainer">
+      </div>
+    </div>
+    <p id="message1"></p>
+    <p id="message2"></p>
+    
+    <script src="scripts/script-n-buttons.js"></script>
+
+  </body>
+
+</html>
